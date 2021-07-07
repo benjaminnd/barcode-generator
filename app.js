@@ -6,7 +6,7 @@ const app = express();
 const fs = require('fs');
 // app.use(express.static("public"));
 
-const JsBarcode = require('Jsbarcode');
+const JsBarcode = require('jsbarcode');
 const {createCanvas, loadImage} = require('canvas');
 
 app.get("/", (req, res)=> {
