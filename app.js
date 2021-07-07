@@ -1,5 +1,4 @@
 
-const http = require('http');
 const express = require('express');
 const logger = require('morgan');
 const port = process.env.PORT || 5000;
